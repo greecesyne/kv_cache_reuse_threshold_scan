@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "greecesyne-chipadapt_jd491"
+name = "greecesyne-kv_cache_reuse_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://greecesyne.github.io"
-Repository = "https://github.com/greecesyne/chipadapt_jd491"
-Issues = "https://github.com/greecesyne/chipadapt_jd491/issues"
+Repository = "https://github.com/greecesyne/kv_cache_reuse_threshold_scan"
+Issues = "https://github.com/greecesyne/kv_cache_reuse_threshold_scan/issues"
 
 [project.scripts]
-chipadapt_jd491 = "chipadapt_jd491:main"
+kv_cache_reuse_threshold_scan = "kv_cache_reuse_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["chipadapt_jd491"]
+py-modules = ["kv_cache_reuse_threshold_scan"]
